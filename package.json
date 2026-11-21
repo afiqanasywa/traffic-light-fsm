@@ -1,0 +1,30 @@
+{
+  "name": "traffic-light-fsm",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Traffic light simulation driven by a pure finite state machine in React",
+  "type": "module",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html --public-url ./",
+    "test": "node --test"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "parcel": "^2.15.2"
+  },
+  "keywords": [
+    "react",
+    "fsm",
+    "state-machine",
+    "traffic-light",
+    "requestanimationframe"
+  ],
+  "author": "Afiqa Nasywa",
+  "license": "MIT"
+}
